@@ -824,6 +824,7 @@ img {
 }
 
 .check-holder {
+  display: inline-flex;
   width: 16px;
   height: 16px;
   border-radius: 2px;
@@ -832,7 +833,7 @@ img {
     align-items: center;
   justify-content: center;
   fill: transparent;
-  display: inline-flex;
+  
 }
 
 .modal-check:checked + .check-text .check-holder {
